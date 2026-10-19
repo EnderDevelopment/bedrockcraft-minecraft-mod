@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "enderdev",
+  "version": "${mod_version}",
+  "name": "EnderDevelopment Mod",
+  "description": "A custom Minecraft mod for Bedrock Edition.",
+  "authors": ["EnderDevelopment"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.enderdevelopment.MainMod"]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.20.1"
+  }
+}
